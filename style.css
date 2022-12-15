@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,200&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+:root{
+    --red: rgb(245, 15, 15);
+    --white:#fff;
+    --dark:rgb(20, 19, 19);
+    
+}
+
+body {
+    color: var(--dark);
+    background: var(--white);
+    text-decoration: none;
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 18px;
+    box-shadow: 0 0.1rem 0.05rem #ccc;
+    width: 100%;
+    background: #fff;
+    transition: all 0.5s;
+    position: fixed;
+    margin-bottom: 1;
+}
+
+.navigation p{   
+    color: var(--red);
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-left: 400px;
+
+}
+
+
+
+.logo span{
+    color: var(--red);
+    text-decoration: none;
+}
+.navigation img {
+  
+  width: 55px;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.navigation ul li a{
+    color: var(--dark);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+   text-decoration: none;
+
+}
+
+.navigation ul li a:hover{
+    color: red;
+}
+
+.navigation i{
+    cursor: pointer;
+    font-size: 1.5rem;
+
+}
+
+.menu{
+    cursor: pointer;
+    display: none;
+
+}
+
+.menu .bar{
+    display: flex;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--dark);
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3){
+    background: var(--red);
+}
+
+.home{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+
+
+
+}
+
+
+
+.home-text{
+    max-width: 37rem;
+}
+
+.home.text .text-h4{
+    font-size: 1.5rem;
+    color: var(--red);
+    margin-bottom: 1rem;
+
+}
+
+.home-text .text-h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+
+.home-text p{
+    margin-bottom: 4rem;
+}
+
+.home-btn{
+    padding: 15px 45px;
+    background: rgb(241, 7, 7);
+    color: rgb(250, 245, 245);
+    border-radius: 25px;
+    font-weight: 700;
+    transition: all 0.02s;
+}
+
+.home-btn:hover{
+    background: rgb(48, 3, 249);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media (max-width:767px) {
+ .navigation {
+      background-color: black;
+     
+       }
+      
+
+  }

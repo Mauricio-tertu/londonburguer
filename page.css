@@ -1,0 +1,31 @@
+*
+{
+     margin: 0;
+    padding: 0;
+    font-family: 'Poppins' ,sans-serif;
+   
+}
+
+#card1:hover{
+ transition: all;
+}
+
+#bar{   
+    color: rgb(15, 11, 229);
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Poppins' ,sans-serif;
+   
+
+}
+
+#bb {
+ width: 198px;
+ margin-top: 7px;
+}
+
+#aa{
+    width: 228px;
+ margin-top: 7px;
+
+}
